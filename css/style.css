@@ -167,8 +167,8 @@ justify-content: flex-start;
     height: fit-content;
    }
    #swipe {
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
    }
    .header_content {
       gap:0;
@@ -307,5 +307,11 @@ z-index: 25;
    }
    #title {
       font-size: 16px;
+   }
+   .slide {
+      margin-top: 10px;
+   }
+   .slide:last-child {
+      padding-bottom: 0;
    }
 }
